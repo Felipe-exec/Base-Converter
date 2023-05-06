@@ -44,20 +44,31 @@ Basta acessar o site: https://felipe-exec.github.io/Base-converter/
 
 Foi utilizado HTML5, CSS3, JavaScript, OpenAI ChatGPT e Bootstrap.
 
-## 🦸 Autor
+## 🦸 Autores
 
 <a href="https://github.com/Felipe-exec">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/84421730?v=4" width="100px;" alt=""/>
  <br />
  <sub><b>Felipe Menezes Sacramento</b></sub></a> <a href="https://github.com/Felipe-exec" title="GitHub perfil">🎮</a>
- <sub><b>Josué Melquisedeque Leite</b></sub></a> <a href="https://github.com/josuemleite" title="GitHub perfil">🎮</a>
+ 
+ <br />
+ <br />
+ 
+  <a href="https://instagram.com/felipao_de_forma" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+ <a href = "mailto:mzssacramento@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+ <a href="https://www.linkedin.com/in/felipe-sacramento-8a03ba212/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+ 
+<a href="https://github.com/josuemleite/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/84863364?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Josué Melquisedeque Leite</b></sub></a> <a href="https://github.com/josuemleite/" title="GitHub perfil">🚀</a>
  
  <br />
  <br />
 
- <a href="https://www.instagram.com/felipao_de_forma/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
- <a href = "mailto:mzssacramento@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
- <a href="https://www.linkedin.com/in/felipe-sacramento-8a03ba212/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+ <a href="https://instagram.com/josueleite52" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+ <a href = "mailto:josuemelquileite@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+ <a href="https://www.linkedin.com/in/josué-leite-770962201" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
  
  ---
 
