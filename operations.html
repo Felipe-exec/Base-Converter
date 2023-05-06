@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./CSS/style_operations.css">
+    <link rel="shortcut icon" href="./assets/icons8-binary-16.png" type="image/x-icon">
+
+    <script src="./scripts/operations_tabs.js" defer></script>
+    <script src="./scripts/operations.js" defer></script>
+
+    <title>Conversor de Bases | Operations</title>
+</head>
+
+<body>
+    <section>
+        <div class="tab">
+            <button class="tablinks active" onclick="openTab(event, 'tab1')">Decimal</button>
+            <button class="tablinks" onclick="openTab(event, 'tab2')">Binário</button>
+            <button class="tablinks" onclick="openTab(event, 'tab3')">Hexadecimal</button>
+            <button class="tablinks" onclick="openTab(event, 'tab4')">Octal</button>
+        </div>
+
+        <div id="tab1" class="tab-content active">
+            <h2>Decimal</h2>
+            <p>Digite um valor em decimal (base 10) no campo abaixo e ele será convertido para binário, hexadecimal e octal após você pressionar o botão "confirmar". São aceitos apenas valores inteiros não-negativos!</p>
+            <div class="input-group">
+                <input type="number" id="input-number-decimal" placeholder="Digite um número">
+                <button id="btn-confirmar-decimal">confirmar</button>
+                <div id="error-msg-decimal">digite um número válido</div>
+            </div>
+            <div id="resultado-decimal">
+                <p>Binário: <span id="binario-resultado-decimal"></span></p>
+                <p>Hexadecimal: <span id="hexadecimal-resultado-decimal"></span></p>
+                <p>Octal: <span id="octal-resultado-decimal"></span></p>
+            </div>
+        </div>
+
+        <div id="tab2" class="tab-content">
+            <h2>Binário</h2>
+            <p>Digite um valor em binário (base 2) no campo abaixo e ele será convertido para decimal, hexadecimal e octal após você pressionar o botão "confirmar". São aceitos apenas valores inteiros não-negativos!</p>
+            <div class="input-group">
+                <input type="number" id="input-number-binario" placeholder="Digite um número">
+                <button id="btn-confirmar-binario">confirmar</button>
+                <div id="error-msg-binario">digite um número válido</div>
+            </div>
+            <div id="resultado-binario">
+                <p>Decimal: <span id="decimal-resultado-binario"></span></p>
+                <p>Hexadecimal: <span id="hexadecimal-resultado-binario"></span></p>
+                <p>Octal: <span id="octal-resultado-binario"></span></p>
+            </div>
+        </div>
+
+        <div id="tab3" class="tab-content">
+            <h2>Hexadecimal</h2>
+            <p>Digite um valor em hexadecimal (base 16) no campo abaixo e ele será convertido para binário, decimal e octal após você pressionar o botão "confirmar". São aceitos apenas valores inteiros não-negativos!</p>
+            <div class="input-group">
+                <input type="text" id="input-number-hexadecimal" placeholder="Digite um número">
+                <button id="btn-confirmar-hexadecimal">confirmar</button>
+                <div id="error-msg-hexadecimal">digite um número válido</div>
+            </div>
+            <div id="resultado-hexadecimal">
+                <p>Binário: <span id="binario-resultado-hexadecimal"></span></p>
+                <p>Decimal: <span id="decimal-resultado-hexadecimal"></span></p>
+                <p>Octal: <span id="octal-resultado-hexadecimal"></span></p>
+            </div>
+        </div>
+
+        <div id="tab4" class="tab-content">
+            <h2>Octal</h2>
+            <p>Digite um valor em octal (base 8) no campo abaixo e ele será convertido para binário, decimal e hexadecimal após você pressionar o botão "confirmar". São aceitos apenas valores inteiros não-negativos!</p>
+            <div class="input-group">
+                <input type="number" id="input-number-octal" placeholder="Digite um número">
+                <button id="btn-confirmar-octal">confirmar</button>
+                <div id="error-msg-octal">digite um número válido</div>
+            </div>
+            <div id="resultado-octal">
+                <p>Binário: <span id="binario-resultado-octal"></span></p>
+                <p>Decimal: <span id="decimal-resultado-octal"></span></p>
+                <p>Hexadecimal: <span id="hexadecimal-resultado-octal"></span></p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
